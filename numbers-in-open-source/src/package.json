@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /numbers-in-open-source/ --out ../../dist/numbers-in-open-source",
+    "export": "slidev export --output ../numbers-in-open-source.pdf"
+  }
+}
