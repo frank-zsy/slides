@@ -100,6 +100,38 @@ class: 'text-center'
 
 ---
 
+# 业界度量指标
+
+### SourceRank @ Libraries.io
+
+- 统计指标的加权和
+- 专家经验权重
+- 分为代码、社区、分发、文档、使用
+- 具有幂律分布使用对数预处理
+
+<div class="abs-tr mx-35 my-20 flex">
+  <img src="/assets/sourcerank.png" class="h-100">
+</div>
+
+---
+
+# 业界度量指标
+
+### Criticality Score @ OpenSSF
+
+$C_{project}=\frac{1}{\sum_i{\alpha_i}}\sum_i\alpha_i\frac{log(1+S_i)}{log(1+max(S_i,T_i))}$
+
+- 统计指标的加权和
+- 专家经验权重，最大最小归一化
+- 具有幂律分布使用对数预处理
+- 仅考虑演化数据和依赖数据
+
+<div class="abs-tr mx-25 my-20 flex">
+  <img src="/assets/criticality_score.png" class="h-100">
+</div>
+
+---
+
 # 统计度量的问题
 
 <div grid="~ cols-2 gap-4">
@@ -213,6 +245,25 @@ class: 'text-center'
 
 </div>
 
+</div>
+
+---
+
+# 非自动化/数据工具
+
+### OpenSSF best practice
+
+- 项目自查列表
+  - 基本信息
+  - 变更控制
+  - 上报流程
+  - 质量控制
+  - 安全风控
+  - 分析能力
+- 在线开放表单与 Badge 系统
+
+<div class="abs-tr mx-20 my-30 flex">
+  <img src="/assets/openssf_bp.png" class="h-70">
 </div>
 
 ---
